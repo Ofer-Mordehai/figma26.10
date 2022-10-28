@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(115.99deg, #00e1e7 -3.86%, #5f41d9 61.74%);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+nav img {
+  position: absolute;
+  height: 60px;
+  width: 230px;
+  left: 110px;
+  top: 30px;
+}
+
+nav {
+}
+
+ul {
+  position: absolute;
+  top: 50px;
+  display: flex;
+  float: right;
+  right: 100px;
+}
+
+li {
+  margin-right: 60px;
+  list-style: none;
+}
+
+a {
+  font-family: "Inter";
+  opacity: 0.6;
+  color: #ffffff;
+  font-style: normal;
+  text-decoration: none;
+  font-size: large;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.information {
+  height: 370px;
+  width: 580px;
+  margin-left: 110px;
+  margin-top: 180px;
+  border-radius: 10px;
+}
+
+h1,
+h3,
+p {
+  margin-bottom: 25px;
+}
+
+h3 {
+  width: 370px;
+  height: 25px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 105%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.75;
+}
+
+h1 {
+  width: 580px;
+  height: 130px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 110%;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+P {
+  width: 580px;
+  height: 45px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+button {
+  width: 180px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 125%;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #2f91e0;
+}
+
+button:active {
+  border: 3px solid #1e507a;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 270px;
+  margin-left: 80px;
+  margin-top: 400px;
+  background: #ffffff;
+  box-shadow: 0px 4px 60px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 270px;
+  margin-left: 100px;
+  margin-top: 400px;
+  background: #ffffff;
+  box-shadow: 0px 4px 60px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.card1:hover {
+  transition: all 0.4s ease-in-out;
+  transform: scale(1.07);
+}
+
+.card2:hover {
+  transition: all 0.4s ease-in-out;
+  transform: scale(1.07);
+}
+
+.card2 p {
+  width: 200px;
+  height: 45px;
+  margin-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #423d51;
+}
+
+.card1 p {
+  width: 200px;
+  height: 45px;
+  margin-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #423d51;
+}
+
+.card-btn {
+  margin-top: 0px;
+  width: 140px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 2px solid #2f91e0;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 125%;
+  color: #2f91e0;
+  background-color: transparent;
+}
+
+.card-btn:hover {
+  background-color: #2f91e0;
+  color: #ffffff;
+}
+
+.card1 img {
+  width: 100px;
+  height: 80px;
+  margin-bottom: 0;
+}
+
+.card2 img {
+  width: 100px;
+  height: 85px;
+}
+
+
+/*# sourceMappingURL=/css.967bad95.css.map */
